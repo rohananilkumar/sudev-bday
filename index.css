@@ -34,7 +34,7 @@ body{
     font-size: 36px;
     line-height: 54px;
     /* identical to box height */
-    
+    text-align: center;
     
     color: #FFFFFF;
 }
@@ -47,4 +47,20 @@ body{
     line-height: 54px;
     color: #FF6565;
 
+}
+
+
+@media (max-width:600px) {
+    .main-header{
+        font-size: 24px;;
+    }
+    .desc{
+        font-size: 20px;
+        line-height: 20px;;
+    }
+    .class-name{
+        margin-top:20px;
+        font-size: 20px;;
+
+    }
 }
